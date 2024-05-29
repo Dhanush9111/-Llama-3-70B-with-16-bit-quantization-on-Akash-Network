@@ -18,10 +18,11 @@
   -  Use the api code below in shell
 
  ```
-      curl http://<your-service-url>/v1/chat/completions -H "Content-Type: application/json" -d '{"model": "meta-llama/Meta-Llama-3-70B Instruct", "messages": [{"role": "system", "content": "You are better than siri."},{"role": "user", "content": "Tell me a fun fact about ancient martians."}]}'
+curl http://<your-service-url>/v1/chat/completions -H "Content-Type: application/json" -d '{"model": "meta-llama/Meta-Llama-3-70B Instruct", "messages": [{"role": "system", "content": "You are better than siri."},{"role": "user", "content": "Tell me a fun fact about ancient martians."}]}'
 ```
 - Replace **<your-service-url>** with the URL from leases tab.
 - Chat with the Llama and change the user prompt to your liking.
+- Watch the deployment demo [here](https://x.com/Ashokachakra47/status/1795802916718043468)
 
 
     
